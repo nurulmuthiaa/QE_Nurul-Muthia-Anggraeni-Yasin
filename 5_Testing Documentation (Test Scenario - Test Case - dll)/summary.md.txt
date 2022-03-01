@@ -1,0 +1,29 @@
+test scenario merupakan sebuah dokumen yang berisi sekumpulan langkah-langkah sistematis yang disusun oleh software tester agar sistem yang akan di tes dapat memenuhi ketentuan yang diinginkan oleh user, memenuhi standar tertentu, serta dapat berfungsi dengan baik. 
+test scenario merupakan tingkatan tertinggi dari sebuah test case.
+
+tujuan dalam membuat test scenario:
+1. memudahkan developer dan tester untuk melakukan testing
+2. menjadi dasar pengembangan bagi pengerjaan projek
+3. sebagai dasar client atau produk owner menyesuaikan dengan sistem requirment dan juga beberapa tools yang bisa digunakan untuk membuat test scenario seperti google spreadsheet, test rail, test link, dsb.
+
+cara membuat test scenario yang baik, kriterianya adalah:
+1. system requirment adalah kunci, sehingga kita dapat menyusun scenario test sesuai flow yang telah ditentukan.
+2. give conteks, user bersikap seolah-olah perlu melakukan hal tersebut 
+3. give detail, memberikan rincian secara spesifik hal-hal yang perlu diketahui oleh user
+4. cristal clear, easy to understand, memberikan penjelasan secara detail terkait tester dan spesifikasi expeted result sehingga akan memudahkan kita dalam melakukan proses testing 
+5. completed, user dapat melakukan apapun sesuai denga sistem requirment yang diberikan.
+6. cohorent, antara scenario yang satu dengan yang lain dan antara step satu dengan yang lain, harus saling berkesinambungan.
+7. proof, lengkapi dengan hasil yang didapatkan dari scenario yang dilakukan seperti resultnya pass or failed
+8. konsisten, penggunaan kata haruslah secara konsisten jika ingin menggunakan kata field email maka pada kata step selanjutnya harus sesuai dengan kata yang ditertulis diawal
+9. end user main
+
+contoh test scenario:
+1. check the login functionality, apakah fitur login berfungsi dengan baik
+2. check the forgot email functionality
+3. check the create new account functionality
+
+test case atau uji kasus adalah suatu rancangan atau rangkaian mengenai tindakan yang dilakukan oleh software tester untuk melakukan verifikasi terhadap fitur atau fungsi tertentu dari sebuah perangkat lunak.
+
+pembuatan test case bertujuan untuk memastikan bahwa suatu sistem dapat dijalankan dengan baik sesuai dengan kebutuhan awal serta mampu memberikan respon ketika terdapat suatu masukan yang tidak valid.
+
+test case memiliki beberapa komponen seperti test case id, test case decsription, recondition, dsb.
