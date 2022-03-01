@@ -1,0 +1,5 @@
+TASK 1:
+Jadi kesimpulan yang dapat saya ambil dari gambar yaitu untuk com.hascode.tutorial.entity dengan number of classes adalah 1 dan memiliki line coverage 67% atau 6/9 yang artinya adalah mengevaluasi 67% dari baris kode yang ditulis sudah dilakukan testing. selanjutnya untuk mutation coverage 67% atau 2/3 yang artinya terdapat 3 mutan, dimana 2 diantaranya terbunuh 'yang menyebabkan gagal' tetapi 1 yang selamat. kemudian ada com.hascode.tutorial.service dengan number of classes adalah 1 dan memiliki line coverage 100% atau 6/6 yang artinya pengujiannya menyapu semua jalur eksekusi, dengan demikian skor dari baris kode adalah 100%. lalu untuk mutation coverage 75% atau 3/4 artinya terdapat 4 mutan, 3 diantaranya terbunuh tetapi ada 1 selamat.
+
+TASK 2:
+gambar task 2 dapat disimpulkan bahwa pada kodingan tersebut seharusnya ada fungsi yang melakukan seleksi atas fungsi yang digunakan seperti yang terdapat dalam kodingan terdapat fungsi pengurangan seharusnya ada perintah yang mendefinisikan bahwa kita memakai apa, pada program ini juga terdapat deklarasi. int a, int b juga seharusnya masuk ke scanf namun pada kodingan tidak terdapat scanf

@@ -1,0 +1,27 @@
+software testing adalah sebuah proses menganilisis item perangkat lunak untuk mendeteksi perbedaan antara kondisi yang sekarang dengan kondisi yang akan diperlukan untuk mengevaluasi fitur item perangkat lunak.
+
+software testing sangat penting karena, kita dapat menghemat uang kita, menjamin kualitas produk, keamanan terjaga serta kepuasan konsumen/pelanggan. software bug bisa berbahaya, dengan adanya bug didalam aplikasi atau software itu bisa menyebabkan krisis moneter atau manusia.
+
+ada cerita pada tahun 1985, terdapat bug yang halus disebut race condition, seorang teknisi tidak sengaja dapat mengkonfigurasi Therac-25 sehingga berkas elektron akan menembak dalam modus kekuasaan tinggi tanpa melindungi pasien yang tepat. sehingga menyebabkan 3 orang meninggal dan 3 orang lainnya luka parah.
+
+testing platform:
+-API (Application Programming Interface) adalah pengembangan dari inovasi software yang memungkinkan berbagai aplikasi bertukar data dan fungsionalitas dengan mudah dan aman.
+-Web atau website adalah sekumpulan halaman yang berisi informasi tertentu dan dapat diakses oleh banyak orang melalui internet. website dapat dibuka dengan menuliskan URL atau alamat website di browser.
+-Mobile terbagi menjadi 2 = android dan ios.
+-Desktop
+
+tipe-tipe software testing:
+1.Functional Testing adalah jenis pengujian yang memverifikasi bahwa setiap fungsi aplikasi telah beroperasi sesuai dengan requirment specification. 
+-manual testing: langkah untuk mencari cacat atau bug pada program perangkat lunak. pada metode ini tester atau penguji memiliki peran penting sebagai pengguna akhir untuk pengecekan semua fitur aplikasi bekerja dengan benar. penguji melakukan pengecekan secara manual tanpa menggunakan bantuan dari tools atau script, tujuannya adalah untuk memastikan jika aplikasi yang diuji bebas cacat dan aplikasi perangkat lunak dapat bekerja sesuai yang diharapkan.
+-automation testing: sebuah metode pengujian software yang menggunakan suatu software testing dengan tujuan untuk membandingkan antara output yang diprediksikan dengan output yang dihasilkan oleh sistem.
+
+2.Non Functional Testing adalah pengujian dari aspek non functional suatu aplikasi seperti kinerja, keandalan, kegunaan, keamanan, dsb. non functional testing dilakukan setelah functional testing selesai. dengan menerapkan non functional testing kita dapat meningkatkan kualitas perangkat lunak hingga tingkat yang sangat tinggi. 
+-performance testing merupakan jenis pengujian perangkat lunak yang bertujuan untuk memastikan aplikasi akan bekerja dengan baik dibawah beban kerja yang diharapkan. ada beberapa consert yang diharapkan dalam performance testing yaitu speed (menentukan kecepatan respon suatu aplikasi), scalability (menentukan maksimum user load yang dapat dihandle oleh aplikasi), stability (menentukan kestabilan aplikasi dalam berbagai jenis jumlah load).
+
+3. Maintenance testing dilakukan setelah semua aplikasi atau perangkat lunak dirilis ke konsumen atau user. maintenance testing diperlukan untuk mempertahankan atau meningkatkan karakteristik kualitas non functional dari komponen atau sistem selama masa pakainya, terutama efisiensi kerja, kompetibiltas, keandalan, keamanan.
+
+level of testing:
+1. unit testing merupakah sebuah pengujian perangkat lunak yang menguji setiap unit atau komponen dari sebuah perangkat lunak.
+2. integration testing adalah pengujian dari hasil penggabungan unit-unit yang ada didalam perangkat lunak.
+3. system testing merupakan testing yang dilakukan pada satu keseluruhan system yang dilakukan tidak lain adalah end to end testing untuk memverifikasi semua skenario telah berjalan dengan baik.
+4. acceptance testing digunakan untuk menentukan apakah system yang didevelop telah memenuhi kebutuhan pengguna.
