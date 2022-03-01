@@ -1,0 +1,26 @@
+tracking management tool adalah sebuah software yang digunakan untuk mengolah suatu proyek atau development software agar bisa berjalan secara efisien dan efektif seperti jira, dsb.
+
+jira dikembangkan oleh atalase yang sebagai salah satu alat bantu yang bertujuan untuk pelacakan bugs, pelacakan issue dan management proyek.
+
+fitur unggulan jira:
+1. ada fitur test assigment, pada jira fitur ini dilengkapi dengan antarmuka mengenai flow yang dijalankan. hal ini membuat anggota tim bahkan tim lain dapat mengathui sejauh mana progress dari suatu project tersebut 
+2. scrum and kanban , dalam projek manajemen terdapat suatu metode yang dapat digunakan untuk mendapatkan hasil yang maksimal.
+
+keunggulan jira:
+fitur scrum and kanban, dengan fitur ini suatu tim dapat lebih mudah melakukan brainstorming. fitur ini cukup intuitif sehingga tiap anggota tim dapat saling berkolaborasi untuk menentukan prioritas kerjanya. 
+
+root maps, tim leader dapat melihat gambaran project secara utuh sehingga mempermudah pengambilan keputusan.
+
+connectivitas dengan aplikasi yang lain
+
+create jira:
+panel to do=panel ini berisi story yang akan dikerjakan dan sudah diprioritaskan saat planing
+panel in progres=panel ini berisi story yang sedang dikerjakan oleh software testing
+panel finish=panel ini berisi story yang telah diselesaikan oleh software engineer
+
+issues types:
+story
+task
+bug
+epic
+
