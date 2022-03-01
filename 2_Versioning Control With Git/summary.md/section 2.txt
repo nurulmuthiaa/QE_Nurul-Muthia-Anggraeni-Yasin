@@ -1,0 +1,14 @@
+versioning atau versioning control merupakan sebuah sistem yang merekam perubahan-perubahan dari sebuah berkas atau sekumpulan berkas dari waktu ke waktu, sehingga kita bisa melihat kembali versi khusus suatu saat nanti.
+
+repository merupakan directory penyimpanan proyek.
+
+versioning untuk mengatur versi dari source code program.
+tools:
+1. version control system (VCS)
+-single user
+-centralized
+-distributed
+2. source code manager (SCM)
+3. revision control system (RCS)
+
+git adalah salah satu version control system populer yang digunakan para developer untuk mengembangkan software secara bersama-sama
