@@ -1,0 +1,1 @@
+software testing merupakan proses verifikasi sistem atau program komputer untuk memutuskan apakah memenuhi persyaratan yang ditentukan dan mengeluarkan hasil yang diinginkan. sebagai hasilnya nanti kita akan mengidentifikasi apakah dalam suatu produk atau perangkat lunak terdapat bug atau tidak. software tester adalah bagian yang penting dari sebuah tim software development. 
