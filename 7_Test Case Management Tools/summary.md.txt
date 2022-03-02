@@ -1,0 +1,23 @@
+test case management tools adalah situs atau software yang digunakan oleh software tester untuk menyimpan informasi terkait bagaimana pengujian produk harus dilakukan. perencanaan kegiatan pengujian serta dokumen terkait pelaporan status kegiatan penjaminan kualitas produk.
+
+kenapa test case management tools dibutuhkan karena:
+1. plan and estimate
+dalam test case management tools, plan dan estimasi yang kita buat diinformasikan dalam sebuah test plan, dimana dalam test plan itu sendiri berisi tentang fitur-fitur apa saja yang akan di tes dalam plan saat itu.
+2. monitoring and controlling
+dengan menggunakan test case management tools, kita dapat memonitoring proses collecting, recording serta reporting, selain itu kita juga dapat mengontrol data-data yang telah dibuat dalam satu tempat.
+3. reporting and integrate with another tools
+dengan menggunakan test case management tools, kita tidak perlu lagi repot-repot membuat dokumen report secara manual dan test case management tools dapat diintegrasikan dengan tools-tools lain seperti JIRA,dll.
+
+contoh dari test case management tool:
+testrail, testlink,zophyr,qtest,practitest,tclab
+
+TESTRAIL
+Mileston adalah salah satu cara terbaik untuk melacak progress dan timeline suatu project. mileston dapat menjadi target penting seperti rilis perangkat lunak yang seperti direncanakan versi pengujian internal, rilis pita baru untuk pelanggan penting dll.
+
+test run merupakan step dimana kita akan mengeksekusi test case yang sudah kita pilih untuk mileston yang telah ditentukan sebelumnya
+
+test plan merupakan sebuah blue print untuk melakukan proses pengujian dokumen yang berisi rencana untuk semua kegiatan pengujian yang harus dilakukan untuk menghasilkan produk yang berkualitas. test plan disebut juga dengan dokumen yang dinamis.
+
+precondition: kondisi dimana test case ini akan dilakukan sebelum step-step itu dilakukan
+
+monitoring adalah proses pengumpulan, pencatatan, dan pelaporan informasi tentang aktivitas proyek yang perlu diketahui oleh manajer proyek dan pemangku kepentingan
