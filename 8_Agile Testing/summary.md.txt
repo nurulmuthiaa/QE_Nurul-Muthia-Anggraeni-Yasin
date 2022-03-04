@@ -1,0 +1,47 @@
+SDLC (Software development life cycle) merupakan proses yang digunakan untuk merancang, mengembangkan, dan menguji software yang berkualitas tinggi.
+
+tujuan SDLC untuk menyediakan alur terstruktur dalam membantu organisasi menghasilkan software berkualitas tinggi yang diselesaikan dengan perkiraan waktu yang singkat dan biaya yang lebih rendah, namun tetap memenuhi atau melebihi harapan pelanggan. dalam prakteknya sdlc akan dimulai dengan mengevaluasi sistem yang ada untuk mendefinisikan persyaratan pada sistem yang baru, lalu setelah itu software akan dibuat berdasarkan tahapan-tahapan sdlc yang ada. sdlc dapat mengantisipasi kemungkinan adanya kesalahan sehingga dapat mengurangi kemungkinan adanya pengerjaan ulang atau perbaikan setelah software telah jadi.
+
+tahapan-tahapan SDLC:
+1. requirements gathering: 
+pada tahap ini sistem akan dianalisis bagaimana akan dijalankan nantinya, hasil analisis berupa kelebihan dan kekurangan sistem, fungsi sistem hingga pembaharuan yang dapat diterapkan. bagian ini termasuk bagian perencanaan. bagian lain yang termasuk dalam perencanaan: alokasi sumber daya, perencanaan kapasitas, penjadwalan proyek, estimasi biaya dan penetapan. dengan demikian hasil dari tahap ini ialah rencana proyek, jadwal estimasi biaya dan ketentuan.
+
+2. desain:
+pada tahap ini, kita akan membuat model bagaimana cara kerja aplikasi atau software. aspek yang perlu diperhatikan pada tahapan desain:
+-communication: mendefinisikan metode atau cara aplikasi berkomunikasi dengan aset lainnya, seperti server atau apk lainnya. kemudian
+-programming, tidak hanya menentukan bahasa pemrograman tapi juga termasuk metode pemecahan masalah dan tugas-tugas yang ada dalam aplikasi. 
+-arsitektur, menentukan bahasa pemrograman praktik dalam industri desain keseluruhan dan menggunakan template tertentu
+-user interface, mendefinisikan bagaimana cara pelanggan berinteraksi dengan software dan bagaimana software tersebut dapat merespon input yang ada
+-platform, mendefinisikan platform dimana software akan dijalankan. misalnya versi android, ios, linux atau game console
+-security, mendefinisikan langkah-langkah untuk mengamankan aplikasi. misalnya membuat perlindungan kata sandi enkripsi,dll.
+
+3. development(code):
+pada tahap ini, dimana program atau code ditulis. pada tahap ini perancangan bisa saja berubah karena 1 atau banyak hal.
+
+4. testing:
+sesudah sistem selesai dikembangkan sistem harus melalui pengujian sebelum digunakan atau dipublish. tahap testing, sistem harus dijalankan untuk mencoba apakah sistem yang dikembangkan dapat bekerja optimal atau tidak. hal yang harus diperhatikan:
+-kemudahan penggunaan sistem pencapaian tujuan dari sistem yang sudah disusun sejak perancangan sistem dilakukan. tahap testing dalam sdlc ialah bagian paling penting dalam rangkaian pembuatan sebuah siftware, karena sangat tidak mungkin mempublikasikan sebuah software tanpa melalui testing terlebih dahulu. beberapa testing yang harus dilewati antara lain:
+- qualitas code
+- functional testing
+- integration testing
+- performance testing
+- security testing
+
+untuk memastikan testing berjalan teratur dan tidak ada bagian yang terlewati, tes dapat dilakukan menggunakan perangkat continue, dari tahap ini akan dihasilkan software yang telah di tes dan siap untuk dirilis
+
+5. deployment:
+pada tahap ini aplikasi sudah tersedia pada user untuk digunakan. tahapan ini sudah jadi lebih rumit. contohnya beberapa perusahaan mungkin perlu melakukan pembaruan database ke aplikasi yang baru dikembangkan, sehingga memakan lebih banyak waktu dan tenaga. berbagai feedback yang disampaikan oleh user harus didengarkan lagi, dan bila perlu akan ada penyesuaian lagi terhadap produk
+
+6. maintenance:
+tahapan akhir dari proses development sebuah sistem. pada titik ini sebetulnya aplikasi sudah benar-benar selesai dan bisa digunakan di lapangan, namun tahapan maintenance masih dianggap penting karena dalam tahapan ini pengguna bisa jadi menemukan bug yang tidak ditemukan selama pengujian sehingga kesalahan perlu diatasi.
+
+testing pyramid: strategi yang dapat membantu tim development dan otomations dalam membuat software testing yang berkualitas tingga dan andal. ini dapat mengurangi waktu yang dibutuhkan tim untuk mengindentifikasi apakah perubahan yang dilakukan dapat merusak sistem dengan menawarkan feedback secara langsung 
+
+level dari testing pyramid:
+level paling bawah yaitu unit test yang merupakan pengujian perangkat lunak yang menguji setiap unit atau komponen dari suatu perangkat lunak. unit testing dilakukan saat masa pengembangan atau pada saat menuliskan code program dari sebuah perangkat lunak dari developer. seperti namanya, komponen yang diuji pada unit testing adalah unit-unit dari perangkat lunak. unit disini dapat berupa function, method, procedure, modul maupun object. tujuan dari unit testing untuk memvalidasi setiap unit dari code perangkat lunak dapat berjalan seperti yang diharapkan.
+
+level tengah yaitu integration testing adalah pengujian dari hasil penggabungan unit-unit yang ada dalam sebuah software. biasanya QE menguji bagaimana unit-unit tersebut bekerja sebagai suatu kombinasi, bukan lagi sbg suatu unit yang individual. integration testing sebaiknya dilakukan secara bertahap untuk menghindari kesulitan penelusuran jika terjadi kesalahan error atau bug.
+
+level paling atas yaitu UI test atau end to end test adalah yang paling dekat interaksi pengguna pada aplikasi web maupun android atau ios. USER INPUT harus memicu tindakan yang tepat, data harus disajikan kepada pengguna. status ui harus berubah seperti yang diharapkan. ini adalah testing tingkat tertinggi, dengan menggunakan tools atau frameboard, end to end test memberitahu browser atau apps apa yang harus dilakukan seperti klik, ketik serta expected result yang diharapkan melalui test tersebut.
+
+semakin tinggi level, semakin sedikit test yang harus kita lakukan, karena semakin tinggi level untuk membuat testcase menjalankan didalam maintenance memerlukan biaya yang lebih mahal 

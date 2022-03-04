@@ -1,0 +1,15 @@
+1. pada fase apa saja QE berperan pada proses SDLC? sebutkan dan jelaskan peran seperti apa yang QE dapat lakukan pada setiap fase tersebut!
+jawab:
+peran QE pada proses SDLC, yaitu pada tahap:
+1)development(code): pada tahap ini QE berperan untuk membuat program atau code.
+2)testing: pada tahap ini QE berperan untuk menguji suatu aplikasi atau software sebelum digunakan atau dipublish. dimana proses testing yang harus dilewati seperti qualitas code, functional testing, integration testing, performance testing, dan security testing.
+3)maintenance: pada tahap ini QE berperan untuk melihat apakah aplikasi sudah benar-benar selesai dan bisa digunakan di lapangan, namun tahapan maintenance masih dianggap penting karena dalam tahapan ini pengguna bisa jadi menemukan bug yang tidak ditemukan selama pengujian sehingga kesalahan perlu diatasi.
+
+2. menurut teman-teman apa tantangan ketika menerapkan agile testing? berikan penjelasan pada masing-masing 5 poin agile testing manifesto?
+jawab:
+tantangan menerapkan agile manifesto:
+1)testing is an activity not a phase: tester harus terus menguji kelengkapan sesaat sebelum meluncurkan suatu aplikasi atau software, apakah aplikasi atau software tersebut sudah layak atau tidak untuk digunakan.
+2)prevent bugs rather than finding bugs: Tidak mungkin untuk mencegah semua bug tetapi jumlahnya dapat dikurangi dengan menerapkan pengujian unit, tinjauan kode,dst. Komunikasi adalah elemen kunci dalam menjaga produk tetap rapi dan sederhana. Penting untuk mengomunikasikan poin kunci arsitektur utama dan implementasi fitur ke seluruh tim sehingga kode yang dihasilkan akan konsisten.
+3)dont be a checker, be a tester: sebagai seorang tester, tidaklah cukup hanya dengan melakukan testing tanpa adanya improvement atau adanya masukan terhadap apa yang di test. seorang tester sebaik mungkin bisa memberikan feedback terhadap apa yang sedang di test.
+4)dont try to break the system, instead help build the best possible system: seorang QE akan melakukan positive test dan negative test. seorang QE harus memposisikan dirinya sebagai user dan menilai produk dari perspective user sehingga dapat memberikan masukan terhadap developer.
+5)the whole team is responsible for quality, not just the tester: seluruh anggota tim akan bertanggung jawab atas kualitas, bukan hanya menyalahkan satu orang.
