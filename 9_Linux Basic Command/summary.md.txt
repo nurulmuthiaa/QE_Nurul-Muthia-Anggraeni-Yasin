@@ -1,0 +1,49 @@
+basic linux command 
+
+linux commands adalah sebuah utilitas dari sistem operasi linux. semua tugas dasar dan lanjutan dapat dilakukan dengan menjalankan commands. commands dijalankan diterminal linux. terminal merupakan antarmuka baris perintah untuk berinteraksi dengan sistem yang mirip dengan command prompt di os windows. commands di linux sensitive terhadap huruf besar dan huruf kecil. command line di linux penuhnya text based dan lebih cepat dibandingkan dengan menggunakan GUI.
+
+kelebihan command line:
+1. less resources: command line ringan digunakan sehinggan tidak mengharuskan komputer untuk memiliki spesifikasi tinggi bila ingin menggunakan command line.
+2. repetitive task friendly: kita dapat menyimpan script untuk mengotomatiskan tugas yang sama berulang kali.
+3. powerful: karena hanya menggunakan text, antarmuka sistem operasi ini terlihat lebih stabil dibandingkan GUI
+
+struktur command linux: contoh:
+ls berfungsi untuk menampilkan semua file di directory kerja, namun dalam prakteknya, command tanpa options dan parameter hampir tidak berguna, mungkin kita akan membutuhkan directory file khusus atau daftar file dari directory tertentu pada kondisi yang lebih komplex jika tanpa menggunakan options dan parameters.
+
+basic commands:
+1. cal berfungsi untuk menampilkan kalender
+2. date berfungsi untuk menampilkan tanggal pada zona waktu yang tertera di os 
+3. etc
+
+file system commands:
+1. touch berfungsi memperbolehkan kita untuk membuat file baru yang kosong melalui baris perintah linux. 
+2. cat berfungsi untuk membuat daftar konten atau isi file pada standar output. 
+3. cp berfungsi untuk menyalin file dari directory saat ini ke directory yang berbeda.
+4. mv berfungsi untuk memindahkan file meskipun sebenarnya bisa digunakan untuk mengganti atau mengubah nama file. argumen yang ada di mv serupa dengan argumen yang ada di perintah cp.
+5. rm adalah command dasar pada linux yang berfungsi untuk menghapus directory beserta isinya.
+6. mkdir berfungsi untuk membuat directory baru
+7. rmdir berfungsi untuk menghapus directory yang kosong saja
+8. cd berfungsi untuk menjelajahi file dari directory linux
+9. pwd berfungsi untuk mencari path dari directory yang kita gunakan saat ini
+
+processes control commands:
+1. top, akan mengambilkan daftar proses yang sedang berlangsung dan seberapa banyak ruang cpu yang digunakan oleh tiap proses tersebut.
+2. clear, untuk membersihkan terminal jika didalamnya terdapat banyak sekali command
+3. history, untuk mengecek kembali command yang sudah ditambahkan sebelumnya
+4. etc
+
+utilities programs  commands:
+1. ls berfungsi untuk menampilkan semua file di directory kerja kita
+2. which berfungsi untuk mencari file yang dapat dieksekusi terkait dengan command yang diberikan
+3. sudo (super user do) berfungsi untuk menjalankan task yang memerlukan hak akses atau permission administrative
+4. find berfungsi untuk mencari file dan directory. find lebih ditujukan untuk mencari file yang berlokasi didalam directory yang diberikan 
+5. etc.
+
+file access permissions:
+1. chmod berfungsi untuk membaca, menulis dan menjalakan perintah permissions dari file dan directory
+2. chown, memungkinkan kita untuk mengubah atau mentransfer kepemilikan file ke username khusus atau spesifik
+3. etc
+
+shell script adalah sebuah bahasa pemrograman yang disusun berdasarkan komen-komen shell. shell merupakan program yang berfungsi sebagai jembatan antar user dan kernel.
+
+keuntungan menggunakan sheel script didunia testing yaitu ketika harus megeksekusi beberapa command secara berturut-turut.
