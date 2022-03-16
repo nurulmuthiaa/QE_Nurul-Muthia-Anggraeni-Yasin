@@ -1,0 +1,41 @@
+Class adalah blueprint, prototype atau cetakan untuk membuat Object
+Class berisikan deklarasi semua properties dan functions yang dimiliki oleh Object
+Setiap Object dibuat dari Class Dan sebuah Class bisa membuat Object sebanyak-banyaknya.
+
+	Object adalah data yang berisi field / properties / attributes dan method / function / behavior
+	Declaration : mendeklarasikan nama sebuah objek
+	Instantiation : memerlukan sebuah perintah new untuk 	
+	Initialization : inisialisasi dari sebuah objek setelah 	perintah new
+
+Fungsi dan Prosedure di dalam pemrograman java disebut sebagai method
+Method/Metode di dalam kelas adalah block statement yang memiliki nama dan bisa dieksekusi dengan memanggilnya
+	Declaration : mendeklarasikan nama sebuah objek
+	Instantiation : memerlukan sebuah perintah new untuk menciptakan objek
+	Initialization : inisialisasi dari sebuah objek setelah perintah new
+
+Public bisa kita sebut sebagai modifier global.
+Default berarti penulisan kodenya tanpa atribut modifier. Modifier default bisa diakses selama masih dalam satu package
+Private akan membatasi akses hanya di dalam class
+Protected bisa diakses selama masih dalam satu package, perbedaan dengan default, protected bisa diakses selama masih dalam satu package dengan syarat kelas yang hendak mengakses, merupakan kelas turunannya
+Access modifier private akan membatasi akses hanya di dalam class
+Default modifier berarti penulisan kodenya tanpa atribut modifier. Modifier default bisa diakses selama masih dalam satu package
+Protected modifier bisa diakses selama masih dalam satu package, perbedaan dengan default Access modifier protected bisa diakses selama masih dalam satu package dengan syarat kelas yang hendak mengakses, merupakan kelas turunannya
+Public modifier bisa kita sebut sebagai modifier global.
+
+Inheritance atau pewarisan adalah kemampuan untuk menurunkan sebuah class ke class lain
+Dalam artian, kita bisa membuat class Parent dan class Child
+Class Child, hanya bisa punya satu class Parent, namun satu class Parent bisa punya banyak class Child
+Saat sebuah class diturunkan, maka semua field dan method yang ada di class Parent, secara otomatis akan dimiliki oleh class Child
+Untuk melakukan pewarisan, di class child, kita harus menggunakan kata kunci extends lalu diikuti dengan nama class parent nya.
+
+
+
+
+
+
+
+
+
+
+
+
