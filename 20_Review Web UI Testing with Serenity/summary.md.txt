@@ -1,0 +1,22 @@
+intro serenity BDD:
+Serenity adalah kerangka kerja bdd open-source yang membantu membuat tes penerimaan otomatis terstruktur dengan baik dan dapat dipelihara
+Arsitektur ketenangan terdiri dari persyaratan, pengujian, langkah, halaman, dan laporan
+
+define requirements:
+- Saat menggunakan Serenity, Anda mulai dengan persyaratan yang perlu Anda terapkan
+- Ini sering dinyatakan sebagai "cerita" pengguna dengan kriteria penerimaan yang membantu memperjelas persyaratan
+- "Cerita" inilah yang mengotomatisasi ketenangan
+
+automate acceptance criteria:
+- Selanjutnya, jelaskan kriteria penerimaan dalam istilah bisnis tingkat tinggi
+- Perekam kriteria penerimaan ini menggunakan alat BDD seperti mentimun dengan bentuk "fitur", sehingga Serenity dapat menjalankannya
+
+impelement the test:
+- Menerapkan kriteria penerimaan ke dalam kode, sehingga mereka dapat berjalan melawan aplikasi yang sebenarnya
+- Di bawah tenda, pengujian dipecah menjadi langkah-langkah bersarang untuk keterbacaan yang lebih baik dan perawatan yang lebih mudah.
+
+report on test result
+Serenity memberikan laporan rinci tentang hasil tes dan eksekusi, termasuk:
+- narasi untuk setiap tes
+- Tangkapan layar untuk setiap langkah dalam ujian
+- hasil tes termasuk waktu eksekusi dan pesan kesalahan jika tes gagal

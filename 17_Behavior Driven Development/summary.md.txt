@@ -1,0 +1,20 @@
+Bdd tidak hanya membantu Anda mengembangkan perangkat lunak dengan benar, tetapi juga memastikan Anda mengembangkan perangkat lunak yang benar
+
+format bdd:
+1. user story (cerita pengguna)
+2. 	as a [x] = sebagai [x]
+	i want [y] = saya ingin [y]
+	so that [z] = sehingga [z]
+3. scenario
+4. given, when, then = diberikan, kapan, maka
+
+gherkin bdd language:
+- meta: Fitur Pencarian untuk pengguna
+fitur ini sangat penting karena akan memungkinkan pengguna untuk memfilter produk
+- narrative: sebagai pengguna
+Saya ingin mencari, Tanpa kesalahan ejaan, untuk nama produk yang ada di inventaris
+jadi semua produk dengan nama yang mirip harus ditampilkan
+- scenario: Cari laptop
+'Pengguna yang diberikan ada di halaman utama www.myshopingsite.com
+'Saat pengguna mencari laptop
+'maka halaman pencarian harus diperbarui dengan daftar laptop

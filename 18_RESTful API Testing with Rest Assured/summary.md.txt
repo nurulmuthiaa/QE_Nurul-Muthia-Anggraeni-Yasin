@@ -1,0 +1,14 @@
+fundamental API Integration:
+mobile app - API server - Ext Process - API Testing
+
+test process:
+1. merekam, menentukan informasi API
+2. Mengurai, memfilter, atau merekam data API, lalu mengekstrak
+3. Panggilan API Rekonstruksi, dan mengirimnya dari klien simulasi
+4. validasi tes
+
+the practical test pyramid
+UI = (end to end) menguji interaksi antara keseluruhan melalui antarmuka pengguna
+integration = Uji interaksi antara dua modul atau subsistem melalui kontrak API
+component = menguji modul atau subsistem tertentu melalui API
+unit = Uji bagian aplikasi terkecil yang dapat diuji melalui metode
