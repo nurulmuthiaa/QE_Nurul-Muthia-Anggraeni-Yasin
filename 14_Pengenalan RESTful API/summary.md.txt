@@ -1,0 +1,46 @@
+-API adalah singkatan dari Application Programming Interface.
+
+-API merupakan suatu penghubung yang memungkinkan suatu aplikasi untuk berinteraksi dengan aplikasi lainnya dan berbagi data.
+
+- Tujuan penggunaan API adalah untuk mempercepat proses development dengan menyediakan function secara terpisah sehingga developertidak perlu membuat fitur yang serupa.
+
+-API berperan sebagai pembawa pesan yang menerima permintaan pengguna dan memberitahu sistem apa yang harus dilakukan, lalu memberikan respons yang sesuai untuk permintaan tersebut.
+
+API Workflow kita analogikan ketika kita berada di restoran atau warteg / rumah makan.
+
+Client → melakukan request makanan
+
+API sebagai waiter → menyampaikan pesanan ke Chef / dapur dan menyampaikan mengirim kan hasil pesanan ke pelanggan
+
+Sistem/Server sebagai Chef di dapur → Memproses request tadi dan memberikan ke waiter untuk diantar ke pelanggan
+
+-API berperan sebagai pembawa pesan yang menerima permintaan pengguna dan memberitahu sistem apa yang harus dilakukan, lalu memberikan respons yang sesuai untuk permintaan tersebut.
+
+-REST adalah salah satu implementasi dari web service sebagai sebuah standar yang digunakan untuk pertukaran data antar aplikasi atau sistem.
+
+REST (REpresentational State Transfer) merupakan standar arsitektur komunikasi berbasis web yang sering diterapkan dalam pengembangan layanan berbasis web. Umumnya menggunakan HTTP (Hypertext Transfer Protocol) sebagai protocol untuk komunikasi data.
+
+-XML adalah singkatan dari Extensible Markup Language sedangkan JSON adalah JavaScript Object Notation.
+
+Setiap melakukan testing API atau melakukan metode http
+pasti dapat respon :
+
+200 OK: - Kode menunjukkan bahwa permintaan berhasil.
+
+201 Dibuat:- Kode menunjukkan bahwa permintaan berhasil dan sumber daya telah dibuat. Ini digunakan untuk mengkonfirmasi keberhasilan permintaan PUT atau POST
+
+400 Permintaan Buruk :- Ini terjadi terutama dengan permintaan POST dan PUT, ketika data tidak lolos validasi, atau dalam format yang salah.
+
+404 Tidak Ditemukan: - respons menunjukkan bahwa sumber daya yang diperlukan tidak dapat ditemukan.
+
+401 Tidak Diotorisasi: - kesalahan menunjukkan bahwa Anda perlu melakukan otentikasi sebelum mengakses sumber.
+
+405 Metode Tidak Diizinkan: - Metode HTTP yang digunakan tidak didukung untuk sumber daya ini.
+
+500 Internal Server Error:- Terjadi karena beberapa error di sisi Server.
+
+
+functionality → test seperti biasanya apakah suatu fitur sudah berfungsi atau belum
+Negative → Error Handling pada fitur tsb
+Load test → Mengtest kekuatan sistem. mampu mengolah berapa banyak trx misal kan
+security → mengetest keamanan sistem Penetration
