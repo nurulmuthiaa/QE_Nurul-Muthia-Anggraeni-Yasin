@@ -1,0 +1,37 @@
+Dalam pengujian manual, kasus uji dijalankan oleh penguji dan perangkat lunak manusia
+
+Tujuan manual testing: eksplorasi dan pengamatan manusia
+
+kelebihan dari pengujian manual testing:
+- dapatkan umpan balik visual yang cepat dan akurat
+- Ini lebih murah karena Anda tidak perlu mengeluarkan anggaran untuk alat dan proses otomatisasi
+- Saat menguji perubahan kecil, pengujian otomatisasi akan memerlukan pengkodean yang dapat memakan waktu. sementara Anda bisa menguji secara manual dengan cepat
+
+kelemahan dari pengujian manual testing:
+- Itu selalu rentan terhadap kesalahan dalam kesalahan
+- Tidak dapat direkam, jadi tidak mungkin untuk mengulang tes manual
+
+Pengujian otomatisasi berarti menggunakan alat otomatisasi untuk menjalankan rangkaian kasus pengujian Anda
+
+tujuan automation testing: efisiensi dan cakupan
+
+Kasus uji mana yang harus diotomatisasi:
+- test case yang dieksekusi berulang kali
+- test case yang sangat membosankan atau sulit dilakukan secara Manual
+- test case yang memakan waktu untuk dilakukan secara manual
+
+kasus uji mana yang tidak diotomatisasi:
+-  kasus uji yang baru dirancang dan tidak dieksekusi secara manual setidaknya sekali
+- kasus uji yang persyaratannya sering berubah
+
+proses pengujian otomatis:
+1. pemilihan alat uji:
+- kegunaan, Kesederhanaan, biaya
+2. Tentukan ruang lingkup otomatisasi:
+- Lingkup otomatisasi adalah area aplikasi Anda yang sedang diuji yang akan diotomatisasi
+3. Perencanaan, desain dan pengembangan:
+- Selama fase ini Anda membuat strategi dan rencana otomatisasi kemudian mengembangkan skrip otomatisasi
+4. eksekusi tes:
+- Skrip otomatisasi dijalankan selama dibagian ini
+5. pemeliharaan:
+- Skrip otomatisasi perlu ditambahkan, ditinjau, dan dipelihara untuk setiap siklus
