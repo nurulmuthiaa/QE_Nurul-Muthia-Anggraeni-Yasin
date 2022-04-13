@@ -1,0 +1,21 @@
+iterable merupakan sekumpulan data atau struktur data yang dapat dilakukan iterasi atau perulangan kepadanya.
+
+method iterable :
+1. forEach
+2. iterator
+3. spliterator
+
+iterable digunakan sebagai tipe data dari sebuah variable
+
+iterator merupakan kelas yang me manage iterasi dari sebuah iterable. iterator ini mengelola pada bagian mana kita sudah melakukan iterasi pada data iteraable dan mengetahui data apa yang berikutnya dapat diambil, dan bagaimana cara mengambilnya.
+collection merupakan sekumpulan dari objek atau data yang diletakan dalam satu tempat yang sama.
+
+list merupakan sebuah interface yang menyediakan cara untuk menyimpan data secara linear.
+
+arraylist menyediakan penyimpanan data yang dinamis (tidak terikat dengan kapasitas data yang dapat disimpan oleh arraylist tersebut).
+
+linkedlist merupakan struktur data yang menyimpan setiap elemen saling terhubung satu sama lain.
+
+stack menyimpan data secara linear tetapi dalam proses penambahan dan pengambilan datanya itu menggunakan LIFO (Last In First Out) artinya data yang baru dimasukkan akan dikeluarkan terlebih dahulu
+
+set merupakan sebuah struktur data yang dapat menyimpan sekumpulan data secara linear sama seperti list, tetapi set tidak dapat menerima data
